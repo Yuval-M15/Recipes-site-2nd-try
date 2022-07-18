@@ -13,4 +13,8 @@ html, body {
          text-align: center;   
             }
 
-.recipe-box {border: 2px solid #e1d6d6;}
+.recipe-box {border: 2px solid #e1d6d6;
+            display: inline-block;
+            padding: 12px 12px 12px 12px; 
+            margin: 10px; 
+            }
