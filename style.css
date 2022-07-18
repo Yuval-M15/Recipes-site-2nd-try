@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
 
 :root {
-  font-family: 'Fredoka';
+  font-family: 'Fredoka', 'Tahoma';
 }
 
 html, body {
@@ -9,4 +9,6 @@ html, body {
   width: 100%;
 }
 
-.logo-green {color: #126755;}
+.mylogo {color: #126755;
+         text-align: center;   
+            }
