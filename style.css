@@ -16,9 +16,15 @@ html, body {
 .recipe-box {border: 2px solid #e1d6d6;
             display: inline-block;
             padding: 12px 12px 12px 12px; 
-            margin: 10px; 
+            margin: 10px;
+            text-align: center;
             }
 
 .recipe-title {font-size:  1.2rem;  
 }
 
+/* It seems to me that the flexbox is useless here, if I'll delete the main selector below and the {} the display will not change... */
+
+main {display: flex;
+     flex-wrap: wrap
+     }
