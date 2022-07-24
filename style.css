@@ -13,6 +13,26 @@ html, body {
          text-align: center;   
             }
 
+/* navigation bar CSS: vertical and horizontal */
+/* the ul selector relevant for both nav bars */
+
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+/* w3 selector a */
+
+.hor-navbar {float: left;
+            display: block;
+            padding: 10px;
+            background-color: #a8d7cd;
+            }
+
+.hor-navbar:hover {background-color: #97c4ba ;}
+
+
+
+
 .recipe-box {border: 2px solid #e1d6d6;
             display: inline-block;
             padding: 12px 12px 12px 12px; 
