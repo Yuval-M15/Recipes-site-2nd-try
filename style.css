@@ -20,6 +20,8 @@ ul {list-style-type: none;
   margin: 0;
   padding: 0;}
 
+/* Horizontal nav bar CSS */
+
 nav li {float: left;}
 
 nav a {display: block;
@@ -28,6 +30,21 @@ nav a {display: block;
             }
 
 nav a:hover {background-color: #97c4ba ;}
+
+/* Vertical nav bar CSS */
+/*I need to understand how to position it well enough. right now, If the user zoom the page or playing with browser window size the side navigation bar will cover the recipe boxes */
+
+aside {position: fixed;
+       right: 2px;}
+                
+
+aside li a {display: block;
+         width: 170px;
+         padding: 10px;
+         background-color: #a8d7cd;
+            }
+
+aside li a:hover {background-color: #97c4ba ;}
 
 
 .recipe-box {border: 2px solid #e1d6d6;
