@@ -52,7 +52,11 @@ aside li a:hover {background-color: #97c4ba ;}
             padding: 12px 12px 12px 12px; 
             margin: 10px;
             text-align: center;
+            transition: 0.5s; 
             }
+
+.recipe-box:hover {transform: scale(1.05);
+                  }
 
 .recipe-title {font-size:  1.2rem;  
 }
@@ -61,4 +65,5 @@ aside li a:hover {background-color: #97c4ba ;}
 
 main {display: flex;
      flex-wrap: wrap; 
+     justify-content: left;
      }
