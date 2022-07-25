@@ -60,5 +60,5 @@ aside li a:hover {background-color: #97c4ba ;}
 /* It seems to me that the flexbox is useless here, if I'll delete the main selector below and the {} the display will not change... */
 
 main {display: flex;
-     flex-wrap: wrap
+     flex-wrap: wrap; 
      }
